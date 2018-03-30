@@ -10,22 +10,24 @@
 			"row": {
 				"1": 35,
 				"2": 7,
-				"3": 1
+				"3": 1,
+				"4": 1
 			},
 			"col": {
 				"1": 1,
 				"2": 2,
-				"3": 3
+				"3": 2,
+				"4": 2
 			},
 			"col_width": 1,
 			"widgets": [
 				{
 					"type": "text_widget",
 					"settings": {
-						"title": "clock",
+						"title": "",
 						"size": "regular",
 						"value": "datasources[\"time\"][\"time_string_value\"]",
-						"sparkline": true,
+						"sparkline": false,
 						"animate": true
 					}
 				}
@@ -36,12 +38,14 @@
 			"row": {
 				"1": 47,
 				"2": 13,
-				"3": 1
+				"3": 1,
+				"4": 1
 			},
 			"col": {
 				"1": 1,
 				"2": 2,
-				"3": 2
+				"3": 3,
+				"4": 3
 			},
 			"col_width": 1,
 			"widgets": [
@@ -62,12 +66,14 @@
 			"row": {
 				"1": 1,
 				"2": 1,
-				"3": 1
+				"3": 11,
+				"4": 11
 			},
 			"col": {
 				"1": 1,
 				"2": 1,
-				"3": 1
+				"3": 2,
+				"4": 2
 			},
 			"col_width": 1,
 			"widgets": [
@@ -142,6 +148,47 @@
 						"size": "big",
 						"value": "datasources[\"Osborne Jobs\"][\"finished\"]",
 						"animate": true
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 5,
+				"4": 1
+			},
+			"col": {
+				"3": 1,
+				"4": 4
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "picture",
+					"settings": {
+						"src": "http://www.osborne-electrical.co.uk/_/rsrc/1519384336213/config/customLogo.gif?revision=34",
+						"refresh": 0
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 1
+			},
+			"col": {
+				"3": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "indicator",
+					"settings": {
+						"title": "Memento",
+						"on_text": "On",
+						"off_text": "Off"
 					}
 				}
 			]
